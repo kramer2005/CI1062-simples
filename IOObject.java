@@ -5,11 +5,11 @@ public class IOObject {
     this.nome = nome;
   }
 
-  void printName(){
+  void printNome(){
     System.out.println(this.nome);
   }
 
-  void printName(String path){
+  void printNome(String path){
     System.out.println(path + this.nome);
   }
 }

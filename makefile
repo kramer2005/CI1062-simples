@@ -1,10 +1,11 @@
 BIN=bin
 
 all: clear folders compile
-	@echo "Compilando..."
 
 compile:
-	javac -d $(BIN) ./*.java
+	@echo "Compilando..."
+	@javac -d $(BIN) ./*.java
+	@echo "Compilação concluída"
 
 folders:
 	@if [ ! -d $(BIN) ]; then \
